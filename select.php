@@ -20,7 +20,7 @@ if ($conn->connect_errno) {
 
 // sql query to fetch data from the table and show it on page!
 
-$sql = "SELECT * FROM MyGuests";
+$sql = "SELECT id,firstname,lastname,email FROM MyGuests";
 $result = $conn->query($sql); // store the query result
 if ($result->num_rows > 0) {
     // output row of each data
