@@ -31,5 +31,17 @@
     $email = 'serena.us.22.gmail.com';
     $stmt->execute();
 
+
+    $first_name = 'Andy';
+    $last_name = 'Murray';
+    $email = "andy@gmail.com";
+    $stmt->execute();
+
+    $first_name = 'Stanilas';
+    $last_name = 'Wawarinka';
+    $email = 'stan.wawarinka@gmail.com';
+    $stmt->execute();
+
+
     echo "New Records executed sucessfully!";
     $stmt->close();
