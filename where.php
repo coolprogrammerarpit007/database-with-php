@@ -30,6 +30,7 @@
     // var_dump($row);
 
     echo "Name: {$row["firstname"]} {$row["lastname"]} and Email Id is: {$row["email"]}";
+
     
 
 
